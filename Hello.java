@@ -6,6 +6,7 @@ public class Hello {
         
         System.out.println("Enter your name:");
         String name = scanner.nextLine();
+        nextLine();
         
         greet(name);
         
